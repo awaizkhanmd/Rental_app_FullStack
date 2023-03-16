@@ -56,4 +56,4 @@ export function Button(props: IButtonProps) {
   if (theme === "filled")
     return <FilledButton className={className}>{text}</FilledButton>;
   else return <OutlinedButton className={className}>{text}</OutlinedButton>;
-}
+}  

@@ -8,7 +8,7 @@ import { SCREENS } from "../../components/responsive";
 import { Button } from "../../components/buttton";
 
 const TopSectionContainer = styled.div`
-  min-height: 400px;
+  min-height: 900px;
   margin-top: 6em;
   ${tw`
     w-full
@@ -161,7 +161,7 @@ export function TopSection() {
         </Description>
         <ButtonsContainer>
           <Button text="Book Your Ride" />
-          <Button theme="filled" text="Sell Your Car" />
+          <Button  text="Sell Your Car" />
         </ButtonsContainer>
       </LeftContainer>
       <RightContainer>
